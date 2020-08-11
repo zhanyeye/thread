@@ -1,4 +1,4 @@
-package cn.zhanyeye;
+package cn.zhanyeye.thread;
 
 /**
  * @description: 通过继承 Thread 来实现多线程, 避免单继承局限性

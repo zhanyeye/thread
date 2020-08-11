@@ -1,4 +1,4 @@
-package cn.zhanyeye;
+package cn.zhanyeye.runnable;
 
 /**
  * @description: Runnable接口创建线程

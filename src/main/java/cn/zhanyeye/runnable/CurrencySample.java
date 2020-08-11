@@ -1,4 +1,4 @@
-package cn.zhanyeye;
+package cn.zhanyeye.runnable;
 
 /**
  * @description: 多线程操作临界区
