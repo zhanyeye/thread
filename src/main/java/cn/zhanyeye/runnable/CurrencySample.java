@@ -7,25 +7,39 @@ package cn.zhanyeye.runnable;
  **/
 public class CurrencySample implements Runnable {
 
+    // 剩余票数
     int ticketNums = 10;
+    // 外部停止方式
+    boolean flag = true;
 
 
     @Override
     public void run() {
         while (true) {
-            if (ticketNums <= 0) {
-                break;
-            }
             try {
-                // 模拟延时
-                Thread.sleep(200);
+                buy();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println(Thread.currentThread().getName() + " : 拿到了第" + ticketNums + "票");
-            ticketNums--;
         }
     }
+
+
+    /**
+     * 买票, 同步方法，锁的是this
+     * @throws InterruptedException
+     */
+    private synchronized void buy() throws InterruptedException {
+        // 判断是否有票
+        if (ticketNums <= 0) {
+            flag = false;
+            return;
+        }
+        Thread.sleep(100);
+        System.out.println(Thread.currentThread().getName() + " : 拿到了第" + ticketNums + "票");
+        ticketNums--;
+    }
+
 
     public static void main(String[] args) {
         CurrencySample ticket = new CurrencySample();
