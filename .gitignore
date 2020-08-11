@@ -49,3 +49,7 @@ pic3.png
 pic2.png
 pic1.png
 thread.iml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/libraries/Maven__commons_io_commons_io_2_7.xml
+.idea/libraries/Maven__junit_junit_4_11.xml
+.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
