@@ -53,3 +53,4 @@ thread.iml
 .idea/libraries/Maven__commons_io_commons_io_2_7.xml
 .idea/libraries/Maven__junit_junit_4_11.xml
 .idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+.gitattributes
