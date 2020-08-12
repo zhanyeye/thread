@@ -1,4 +1,4 @@
-package cn.zhanyeye.threadstate;
+package cn.zhanyeye.kuanshen.threadstate;
 
 /**
  * @description: 测试停止线程

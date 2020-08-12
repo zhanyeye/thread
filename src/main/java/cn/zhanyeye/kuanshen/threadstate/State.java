@@ -1,4 +1,4 @@
-package cn.zhanyeye.threadstate;
+package cn.zhanyeye.kuanshen.threadstate;
 
 /**
  * @description: 观察测试线程的状态

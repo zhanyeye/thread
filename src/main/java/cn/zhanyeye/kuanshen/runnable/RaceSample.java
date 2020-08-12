@@ -1,4 +1,4 @@
-package cn.zhanyeye.runnable;
+package cn.zhanyeye.kuanshen.runnable;
 
 /**
  * @description: 龟兔赛跑的例子

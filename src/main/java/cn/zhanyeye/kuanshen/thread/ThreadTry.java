@@ -1,4 +1,4 @@
-package cn.zhanyeye.thread;
+package cn.zhanyeye.kuanshen.thread;
 
 import org.apache.commons.io.FileUtils;
 

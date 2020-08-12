@@ -1,4 +1,4 @@
-package cn.zhanyeye.priority;
+package cn.zhanyeye.kuanshen.priority;
 
 /**
  * @description: 设置进程优先级

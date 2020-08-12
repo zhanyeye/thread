@@ -1,4 +1,4 @@
-package cn.zhanyeye.sync;
+package cn.zhanyeye.kuanshen.sync;
 
 import java.util.ArrayList;
 import java.util.List;

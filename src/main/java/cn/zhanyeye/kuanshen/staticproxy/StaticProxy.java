@@ -1,4 +1,4 @@
-package cn.zhanyeye.staticproxy;
+package cn.zhanyeye.kuanshen.staticproxy;
 
 /**
  * @description: 静态代理实现

@@ -1,4 +1,4 @@
-package cn.zhanyeye.sync;
+package cn.zhanyeye.kuanshen.sync;
 
 /**
  * @description: synchronized的使用

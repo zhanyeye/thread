@@ -1,4 +1,4 @@
-package cn.zhanyeye.runnable;
+package cn.zhanyeye.kuanshen.runnable;
 
 import org.apache.commons.io.FileUtils;
 

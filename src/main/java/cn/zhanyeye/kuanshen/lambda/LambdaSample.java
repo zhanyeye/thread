@@ -1,4 +1,4 @@
-package cn.zhanyeye.lambda;
+package cn.zhanyeye.kuanshen.lambda;
 
 /**
  * @description: lambda 表达式的使用
